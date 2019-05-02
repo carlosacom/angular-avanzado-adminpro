@@ -16,6 +16,7 @@ import { ProgressComponent } from './progress/progress.component';
 import { Charts1Component } from './charts1/charts1.component';
 import { IncrementatorComponent } from '../components/incrementator/incrementator.component';
 import { DoughnutChartComponent } from '../components/doughnut-chart/doughnut-chart.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 
 
@@ -27,6 +28,7 @@ import { DoughnutChartComponent } from '../components/doughnut-chart/doughnut-ch
         Charts1Component,
         IncrementatorComponent,
         DoughnutChartComponent,
+        AccountSettingsComponent,
     ],
     exports: [
         DashboardComponent,
