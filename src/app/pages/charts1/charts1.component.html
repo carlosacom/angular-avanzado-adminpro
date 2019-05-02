@@ -1,3 +1,18 @@
-<p>
-  charts1 works!
-</p>
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body">
+                <app-doughnut-chart title="Graficas 1" [labels]="doughnutChartLabels" [data]="doughnutChartData" [type]="doughnutChartType"></app-doughnut-chart>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6" *ngFor="let chart of graficos">
+        <div class="card">
+            <div class="card-body">
+                <app-doughnut-chart [title]="chart.leyenda" [labels]="chart.labels" [data]="chart.data" [type]="chart.type"></app-doughnut-chart>
+            </div>
+        </div>
+    </div>
+</div>
