@@ -17,6 +17,8 @@ import { Charts1Component } from './charts1/charts1.component';
 import { IncrementatorComponent } from '../components/incrementator/incrementator.component';
 import { DoughnutChartComponent } from '../components/doughnut-chart/doughnut-chart.component';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
+import { PromisesComponent } from './promises/promises.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 
@@ -29,6 +31,8 @@ import { AccountSettingsComponent } from './account-settings/account-settings.co
         IncrementatorComponent,
         DoughnutChartComponent,
         AccountSettingsComponent,
+        PromisesComponent,
+        RxjsComponent,
     ],
     exports: [
         DashboardComponent,
